@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30420.98
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSS.DotNetAllInOne.WebAPI", "GSS.DotNetAllInOne.WebAPI\GSS.DotNetAllInOne.WebAPI.csproj", "{FE389C82-0480-401F-963A-701D3C7D41C9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{2D02E8DB-7511-475E-B1F8-1B543F45B9A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D861D2F9-967F-467D-8DA9-ADA7541D7FEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{884DBBDF-84D0-4321-BFA4-2C422E0270A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8D818E59-1760-41BC-B3F9-27916EDB363E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C948FD3E-3A3F-4E7C-9451-A547C4DCA54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSS.DotNetAllInOne", "GSS.DotNetAllInOne\GSS.DotNetAllInOne.csproj", "{6A3C43C0-E9A7-47BA-B5E1-C05C6473BD19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +21,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FE389C82-0480-401F-963A-701D3C7D41C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE389C82-0480-401F-963A-701D3C7D41C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE389C82-0480-401F-963A-701D3C7D41C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE389C82-0480-401F-963A-701D3C7D41C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3C43C0-E9A7-47BA-B5E1-C05C6473BD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3C43C0-E9A7-47BA-B5E1-C05C6473BD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3C43C0-E9A7-47BA-B5E1-C05C6473BD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3C43C0-E9A7-47BA-B5E1-C05C6473BD19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{884DBBDF-84D0-4321-BFA4-2C422E0270A1} = {D861D2F9-967F-467D-8DA9-ADA7541D7FEC}
+		{8D818E59-1760-41BC-B3F9-27916EDB363E} = {D861D2F9-967F-467D-8DA9-ADA7541D7FEC}
+		{6A3C43C0-E9A7-47BA-B5E1-C05C6473BD19} = {2D02E8DB-7511-475E-B1F8-1B543F45B9A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77BA0ED0-EE7B-4D3C-9070-155CBB3A7519}
