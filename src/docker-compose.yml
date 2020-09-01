@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  gss.dotnetallinone.webapi:
+    image: ${DOCKER_REGISTRY-}gssdotnetallinonewebapi
+    build:
+      context: .
+      dockerfile: Presentations/GSS.DotNetAllInOne.WebAPI/Dockerfile
+  examples-db:
+    image: postgres:12.4-alpine
+    environment:
+        - POSTGRES_DB=examples-db
+        - POSTGRES_USER=dbadmin
+        - POSTGRES_PASSWORD=dbadmin
+    command:
+        - -c
+        - max_prepared_transactions=100
+    ports:
+        - "5433:5432"

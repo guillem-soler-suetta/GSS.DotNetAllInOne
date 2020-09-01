@@ -13,13 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8D818E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C948FD3E-3A3F-4E7C-9451-A547C4DCA54D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSS.DotNetAllInOne.WebAPI", "Presentations\GSS.DotNetAllInOne.WebAPI\GSS.DotNetAllInOne.WebAPI.csproj", "{0E12FBB9-B60A-4822-9D81-5E8AA96667EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSS.DotNetAllInOne.WebAPI", "Presentations\GSS.DotNetAllInOne.WebAPI\GSS.DotNetAllInOne.WebAPI.csproj", "{0E12FBB9-B60A-4822-9D81-5E8AA96667EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSS.DotNetAllInOne.Application", "Core\Application\GSS.DotNetAllInOne.Application\GSS.DotNetAllInOne.Application.csproj", "{3364175B-6958-47A4-963F-833D58C4CB63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSS.DotNetAllInOne.Application", "Core\Application\GSS.DotNetAllInOne.Application\GSS.DotNetAllInOne.Application.csproj", "{3364175B-6958-47A4-963F-833D58C4CB63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSS.DotNetAllInOne.Domain", "Core\Domain\GSS.DotNetAllInOne.Domain\GSS.DotNetAllInOne.Domain.csproj", "{69938359-C6E6-4D41-B843-AB51E2FEAE07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSS.DotNetAllInOne.Domain", "Core\Domain\GSS.DotNetAllInOne.Domain\GSS.DotNetAllInOne.Domain.csproj", "{69938359-C6E6-4D41-B843-AB51E2FEAE07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSS.DotNetAllInOne.Persistence", "Infrastructure\GSS.DotNetAllInOne.Persistence\GSS.DotNetAllInOne.Persistence.csproj", "{56C19C14-97FB-4BA5-A42D-B32321E3B892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GSS.DotNetAllInOne.Persistence", "Infrastructure\GSS.DotNetAllInOne.Persistence\GSS.DotNetAllInOne.Persistence.csproj", "{56C19C14-97FB-4BA5-A42D-B32321E3B892}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8FA62C79-6BD8-433A-AAD0-3BEAA9FE7F62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{56C19C14-97FB-4BA5-A42D-B32321E3B892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56C19C14-97FB-4BA5-A42D-B32321E3B892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C19C14-97FB-4BA5-A42D-B32321E3B892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA62C79-6BD8-433A-AAD0-3BEAA9FE7F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA62C79-6BD8-433A-AAD0-3BEAA9FE7F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA62C79-6BD8-433A-AAD0-3BEAA9FE7F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA62C79-6BD8-433A-AAD0-3BEAA9FE7F62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
